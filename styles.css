@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+
+body{
+
+    font-family: Arial, sans-serif;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.90)),
+    url("assets/fondo_tactico.jpg");
+
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    color: white;
+}
+
+/* HEADER */
+
+header{
+
+    background: rgba(0,0,0,0.90);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 25px 60px;
+
+    position: sticky;
+    top: 0;
+
+    z-index: 1000;
+
+    border-bottom: 2px solid #c2a36b;
+
+    backdrop-filter: blur(10px);
+}
+
+/* LOGO */
+
+.logo h1{
+
+    font-size: 42px;
+
+    font-family: 'Orbitron', sans-serif;
+
+    color: #ffffff;
+
+    letter-spacing: 3px;
+
+    text-transform: uppercase;
+}
+
+.logo p{
+
+    color: #c2a36b;
+
+    margin-top: 5px;
+
+    font-size: 16px;
+}
+
+/* NAV */
+
+nav a{
+
+    color: white;
+
+    text-decoration: none;
+
+    margin-left: 30px;
+
+    font-size: 18px;
+
+    transition: 0.3s;
+}
+
+nav a:hover{
+
+    color: #c2a36b;
+
+    border-bottom: 2px solid #c2a36b;
+
+    padding-bottom: 5px;
+}
+
+/* HERO */
+
+.hero{
+
+    height: 90vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 30px;
+}
+
+/* TITULO PRINCIPAL */
+
+.hero-texto h2{
+
+    font-size: 90px;
+
+    font-family: 'Orbitron', sans-serif;
+
+    text-transform: uppercase;
+
+    letter-spacing: 5px;
+
+    color: #ffffff;
+
+    text-shadow:
+    0 0 10px rgba(255,255,255,0.2),
+    0 0 20px rgba(194,163,107,0.3);
+
+    margin-bottom: 25px;
+}
+
+/* SUBTEXTO */
+
+.hero-texto p{
+
+    font-size: 24px;
+
+    max-width: 850px;
+
+    line-height: 1.8;
+
+    color: #dddddd;
+
+    margin: auto;
+}
+
+/* BOTON */
+
+.hero button{
+
+    margin-top: 40px;
+
+    padding: 18px 45px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #c2a36b;
+
+    color: black;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.4s;
+}
+
+.hero button:hover{
+
+    transform: scale(1.08);
+
+    box-shadow: 0 0 20px rgba(194,163,107,0.5);
+}
+
+/* TARJETA PRODUCTO */
+
+.producto-card{
+
+    width: 92%;
+
+    max-width: 1400px;
+
+    margin: 70px auto;
+
+    background: rgba(20,20,20,0.92);
+
+    border-radius: 25px;
+
+    padding: 50px;
+
+    box-shadow:
+    0 0 30px rgba(0,0,0,0.5);
+
+    backdrop-filter: blur(6px);
+}
+
+/* TITULOS */
+
+.producto-card h2,
+.tabla-tallas h2{
+
+    text-align: center;
+
+    font-size: 55px;
+
+    margin-bottom: 40px;
+
+    font-family: 'Orbitron', sans-serif;
+
+    color: #ffffff;
+
+    letter-spacing: 3px;
+
+    text-transform: uppercase;
+}
+
+/* IMAGEN PRINCIPAL */
+
+.imagen-principal{
+
+    width: 420px;
+
+    display: block;
+
+    margin: auto;
+
+    border-radius: 20px;
+
+    transition: 0.5s;
+
+    box-shadow:
+    0 0 25px rgba(0,0,0,0.6);
+}
+
+.imagen-principal:hover{
+
+    transform: scale(1.04);
+}
+
+/* IMAGEN 4 VISTAS */
+
+.imagen-vistas{
+
+    width: 100%;
+
+    max-width: 1200px;
+
+    display: block;
+
+    margin: 50px auto;
+
+    border-radius: 20px;
+
+    box-shadow:
+    0 0 25px rgba(0,0,0,0.5);
+}
+
+/* DESCRIPCION */
+
+.descripcion{
+
+    text-align: center;
+
+    margin-top: 30px;
+}
+
+.descripcion p{
+
+    font-size: 22px;
+
+    line-height: 1.9;
+
+    max-width: 1000px;
+
+    margin: auto;
+
+    color: #e0e0e0;
+}
+
+/* LISTA */
+
+.descripcion ul{
+
+    list-style: none;
+
+    margin-top: 35px;
+}
+
+.descripcion li{
+
+    margin: 18px 0;
+
+    font-size: 22px;
+}
+
+.descripcion i{
+
+    color: #c2a36b;
+
+    margin-right: 10px;
+}
+
+/* PRECIO */
+
+.descripcion h3{
+
+    margin-top: 40px;
+
+    font-size: 48px;
+
+    color: #c2a36b;
+
+    text-shadow:
+    0 0 10px rgba(194,163,107,0.4);
+}
+
+/* TABLA */
+
+.tabla-tallas{
+
+    width: 92%;
+
+    max-width: 1400px;
+
+    margin: 70px auto;
+
+    background: rgba(20,20,20,0.92);
+
+    padding: 50px;
+
+    border-radius: 25px;
+}
+
+table{
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    overflow: hidden;
+}
+
+/* ENCABEZADO TABLA */
+
+th{
+
+    background: #c2a36b;
+
+    color: black;
+
+    font-size: 20px;
+
+    padding: 18px;
+}
+
+/* CELDAS */
+
+td{
+
+    padding: 18px;
+
+    text-align: center;
+
+    font-size: 18px;
+
+    border-bottom: 1px solid #333;
+}
+
+tr:hover{
+
+    background: rgba(194,163,107,0.1);
+}
+
+/* ASIDE */
+
+aside{
+
+    width: 92%;
+
+    max-width: 1200px;
+
+    margin: 40px auto;
+
+    background: rgba(194,163,107,0.15);
+
+    border-left: 5px solid #c2a36b;
+
+    padding: 30px;
+
+    border-radius: 15px;
+}
+
+aside h3{
+
+    font-size: 35px;
+
+    margin-bottom: 15px;
+
+    font-family: 'Orbitron', sans-serif;
+}
+
+aside p{
+
+    font-size: 22px;
+}
+
+/* FOOTER */
+
+footer{
+
+    background: #000000;
+
+    text-align: center;
+
+    padding: 60px 20px;
+
+    margin-top: 80px;
+
+    border-top: 2px solid #c2a36b;
+}
+
+footer h2{
+
+    font-size: 40px;
+
+    font-family: 'Orbitron', sans-serif;
+
+    margin-bottom: 15px;
+}
+
+footer p{
+
+    font-size: 18px;
+}
+
+/* REDES */
+
+.redes{
+
+    margin: 30px 0;
+}
+
+.redes i{
+
+    font-size: 35px;
+
+    margin: 0 15px;
+
+    transition: 0.4s;
+
+    cursor: pointer;
+}
+
+.redes i:hover{
+
+    color: #c2a36b;
+
+    transform: scale(1.2);
+}
+
+/* RESPONSIVE */
+
+@media(max-width: 768px){
+
+    header{
+
+        flex-direction: column;
+
+        gap: 20px;
+    }
+
+    .hero-texto h2{
+
+        font-size: 42px;
+    }
+
+    .hero-texto p{
+
+        font-size: 18px;
+    }
+
+    .producto-card h2,
+    .tabla-tallas h2{
+
+        font-size: 32px;
+    }
+
+    .imagen-principal{
+
+        width: 100%;
+    }
+
+    th,
+    td{
+
+        font-size: 12px;
+    }
+
+}

@@ -13,7 +13,7 @@ La página presenta información sobre una chaqueta táctica premium, incluyendo
 
 ---
 
-## Objetivo
+# Objetivo
 
 El objetivo de la página es ofrecer una experiencia visual moderna y organizada aplicando buenas prácticas de:
 
@@ -24,7 +24,7 @@ El objetivo de la página es ofrecer una experiencia visual moderna y organizada
 
 ---
 
-## Público objetivo
+# Público objetivo
 
 La página está dirigida a personas interesadas en:
 - moda urbana
@@ -34,7 +34,7 @@ La página está dirigida a personas interesadas en:
 
 ---
 
-## Tecnologías utilizadas
+# Tecnologías utilizadas
 
 - HTML5
 - CSS3
@@ -43,7 +43,7 @@ La página está dirigida a personas interesadas en:
 
 ---
 
-## Estructura semántica aplicada
+# Estructura semántica aplicada
 
 Se utilizaron etiquetas semánticas HTML5 como:
 
@@ -59,7 +59,7 @@ Estas etiquetas permiten organizar correctamente el contenido y mejorar la acces
 
 ---
 
-## Accesibilidad aplicada
+# Accesibilidad aplicada
 
 Se implementaron buenas prácticas de accesibilidad:
 
@@ -72,7 +72,23 @@ Se implementaron buenas prácticas de accesibilidad:
 
 ---
 
-## Organización del proyecto
+# Diseño visual
+
+El diseño está inspirado en una estética:
+- táctica
+- futurista
+- urbana
+- militar premium
+
+Se utilizaron:
+- colores oscuros
+- efectos hover
+- tipografía futurista
+- imágenes tipo catálogo
+
+---
+
+# Organización del proyecto
 
 ```plaintext
 J_A_FACTORY
@@ -91,29 +107,29 @@ J_A_FACTORY
 
 ---
 
-## Validación HTML
+# Validación HTML
 
 El código HTML fue validado utilizando:
 
 https://validator.w3.org/
 
 Se corrigieron errores relacionados con:
+- estructura semántica
+- atributos HTML
 - etiquetas mal cerradas
 - accesibilidad
-- rutas de imágenes
-- estructura semántica
 
 ---
 
-## Cómo visualizar el proyecto
+# Cómo visualizar el proyecto
 
 1. Descargar el repositorio.
 2. Abrir el archivo `index.html`.
-3. Mantener la carpeta `assets`.
+3. Asegurarse de mantener la carpeta `assets`.
 
 ---
 
-## Autor
+# Autor
 
 Jeison Africano  
 Estudiante de Ingeniería de Software
